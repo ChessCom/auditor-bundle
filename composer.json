@@ -10,10 +10,16 @@
             "email": "damien.harper@gmail.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/ChessCom/auditor"
+        }
+      ],
     "require": {
         "php": ">=7.3",
         "ext-json": "*",
-        "damienharper/auditor": "^2.0-dev",
+        "damienharper/auditor": "dev-SM/avoid-annotation-parsing",
         "doctrine/annotations": "^1.8",
         "doctrine/doctrine-bundle": "^1.9|^2.0",
         "doctrine/orm": "^2.7",
